@@ -1,4 +1,3 @@
-@import "Fonts.css";
 
 .theBody {
     height:100vh;
@@ -69,7 +68,8 @@
   
 }
 .cardText {
-  font-family: 'Phudu', cursive;
+  font-family: 'Segoe UI';
+  font-weight: lighter;
 }
 
 .nav-item {
