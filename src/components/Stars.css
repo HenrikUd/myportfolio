@@ -1,0 +1,102 @@
+.star {
+    height: 175px;
+    width: 175px;
+    filter: brightness(0) saturate(100%) invert(97%) sepia(0%) saturate(7500%) hue-rotate(77deg) brightness(110%) contrast(100%);
+    position: absolute;
+    animation: linear infinite;
+  animation-name: run;
+  animation-duration: 35s;
+  bottom: 65vh;
+}
+
+.star2 {
+  height: 120px;
+  width: 120px;
+  filter: brightness(0) saturate(100%) invert(97%) sepia(0%) saturate(7500%) hue-rotate(77deg) brightness(110%) contrast(100%);
+  position: absolute;
+  animation: linear infinite;
+animation-name: run2;
+animation-duration: 42.5s;
+bottom: 70vh;
+}
+
+.star3 {
+  height: 135px;
+  width: 135px;
+  filter: brightness(0) saturate(100%) invert(97%) sepia(0%) saturate(7500%) hue-rotate(77deg) brightness(110%) contrast(100%);
+  position: absolute;
+  animation: linear infinite;
+animation-name: run3;
+animation-duration: 37.5s;
+bottom: 75vh;
+}
+
+.star4 {
+  height: 125px;
+  width: 125px;
+  filter: brightness(0) saturate(100%) invert(97%) sepia(0%) saturate(7500%) hue-rotate(77deg) brightness(110%) contrast(100%);
+  position: absolute;
+  animation: linear infinite;
+animation-name: run4;
+animation-duration: 35s;
+bottom: 62vh;
+}
+
+
+@keyframes run {
+    0% {
+      transform: translateX(-850px)
+      
+    }
+    
+      
+    
+    100% {
+      transform: translateX(2000px)
+       
+    }
+  }
+
+  @keyframes run2 {
+    0% {
+      transform: translateX(-250px)
+      
+    }
+    
+      
+    
+    100% {
+      transform: translateX(2000px)
+       
+    }
+    }
+  
+
+  @keyframes run3 {
+    0% {
+      transform: translateX(-550px)
+      
+    }
+    
+      
+    
+    100% {
+      transform: translateX(2000px)
+       
+    }
+  }
+
+  @keyframes run4 {
+    0% {
+      transform: translateX(-1000px)
+      
+    }
+    
+      
+    
+    100% {
+      transform: translateX(2000px)
+       
+    }
+  }
+

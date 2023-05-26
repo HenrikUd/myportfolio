@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Gajraj+One&family=Phudu:wght@300&display=swap');
+
+.theBody {
+    height:100vh;
+}
+
+ .homeContainer {
+    background-color: black;
+
+
+ }
+.homeTitle {
+    color: white;
+    
+}
+
+.homeText {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    font-size: 0.85em;
+}
+
+.theProjects {
+    height: 100vh;
+}
+
+.theAbout {
+    height: 100vh;
+}
+
+.aboutBg {
+    background-color: rgb(230, 237, 235);
+}
+
+.theContact {
+    height: 100vh;
+}
+
+
+
+.projectsTitle {
+    margin-bottom:33.3vh;
+    height: 30vh;
+}
+
+.cosmeticCard {
+    width: 22.5rem;
+    top: -22.5vh;
+}
+
+.contactParagraph {
+    height: 10vh;
+    font-size: 1.5rem;
+    font-weight: lighter;
+}
+
+.weatherCard {
+    width: 22.5rem;
+    top: -22.5vh;
+}
+
+.myTitleTech {
+  height: 10vh;
+}
+
+.aboutCard {
+  width: 150px;
+  
+  
+}
+.cardText {
+  font-family: 'Phudu', cursive;
+}
+
+.nav-item {
+  cursor: pointer;
+}
+
+
+.contactRow {
+    height: 25vh;
+    width: 9vh; 
+}
+
+
+.contactHeader {
+    height: 30vh;
+}
+
+.animation {
+    position: relative;
+    animation: animation 2s ease-out;
+  }
+
+#slide-in {
+    text-align: center;
+    color: #fff;
+  }
+
+@keyframes animation {
+    0% {
+      opacity: 0;
+      left: -700px;
+    }
+
+    100% {
+      opacity: 1;
+      left: 0;
+    }
+  }
+
+ 
+
+  .aboutTitle {
+    height: 15vh;
+  }
+
+  .aboutText {
+    font-size: 1.1em;
+  }
+
+  
+
+  .card{
+    
+    border-radius: 4px;
+    background: #fff;
+    box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+      transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+      cursor: pointer;
+}
+
+.card:hover{
+     transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+
+.techIcon {
+  
+  height: 7.5vh;
+  border-radius: 4px;
+  fill: none;
+    transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+    
+}
+
+.techIcon:hover{
+  transform: scale(1.05);
+box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+
+.contactIcon {
+  height: 7.5vh;
+  border-radius: 4px;
+  fill: none;
+    transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+    cursor: pointer;
+    
+}
+
+.contactIcon:hover{
+  transform: scale(1.05);
+box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+
+ @media screen and (min-width: 250px) and (max-width: 535px) {
+  .myTitleTech {
+    height: 25vh;
+  }
+
+  .theAbout {
+    height: 160vh;
+  }
+
+  .theProjects {
+    height: 110vh;
+  }
+
+}
+
+@media (max-width: 992px) { 
+
+  .projectsTitle {
+    margin-bottom: 24.5vh;
+    height: 7.5vh;
+}
+
+
+   };
+
+   @media (max-height: 765px) { 
+
+    .cosmeticCard {
+      width: 22.5rem;
+      top: -22.5vh;
+  }
+
+  .cosmeticCard {
+    width: 22.5rem;
+    top: -22.5vh;
+}
+};
+
+      
