@@ -1,204 +1,219 @@
-
 .theBody {
-    height:100vh;
+  height:100vh;
 }
 
- .homeContainer {
-    background-color: black;
+.homeContainer {
+  background-color: black;
 
 
- }
+}
 .homeTitle {
-    color: white;
-    
+  color: white;
+  
 }
 
 .homeText {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: lighter;
-    font-size: 0.85em;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: lighter;
+  font-size: 0.85em;
 }
 
 .theProjects {
-    height: 100vh;
+  height: 100vh;
 }
 
 .theAbout {
-    height: 100vh;
+  height: 100vh;
 }
 
 .aboutBg {
-    background-color: rgb(230, 237, 235);
+  background-color: rgb(230, 237, 235);
 }
 
 .theContact {
-    height: 100vh;
+  height: 100vh;
 }
 
 
 
 .projectsTitle {
-    margin-bottom:33.3vh;
-    height: 30vh;
+  margin-bottom:33.3vh;
+  height: 30vh;
 }
 
 .cosmeticCard {
-    width: 22.5rem;
-    top: -22.5vh;
+  width: 22.5rem;
+  top: -22.5vh;
 }
 
 .contactParagraph {
-    height: 10vh;
-    font-size: 1.5rem;
-    font-weight: lighter;
-}
-
-.weatherCard {
-    width: 22.5rem;
-    top: -22.5vh;
-}
-
-.myTitleTech {
   height: 10vh;
-}
-
-.aboutCard {
-  width: 150px;
-  
-  
-}
-.cardText {
-  font-family: 'Segoe UI';
+  font-size: 1.5rem;
   font-weight: lighter;
 }
 
+.weatherCard {
+  width: 22.5rem;
+  top: -22.5vh;
+
+}
+
+.myTitleTech {
+height: 10vh;
+}
+
+.aboutCard {
+width: 150px;
+
+
+}
+.cardText {
+font-family: 'Segoe UI';
+font-weight: lighter;
+}
+
 .nav-item {
-  cursor: pointer;
+cursor: pointer;
 }
 
 
 .contactRow {
-    height: 25vh;
-    width: 9vh; 
+  height: 25vh;
+  width: 9vh; 
 }
 
 
 .contactHeader {
-    height: 30vh;
+  height: 30vh;
 }
 
 .animation {
-    position: relative;
-    animation: animation 2s ease-out;
-  }
+  position: relative;
+  animation: animation 2s ease-out;
+}
 
 #slide-in {
-    text-align: center;
-    color: #fff;
-  }
+  text-align: center;
+  color: #fff;
+}
 
 @keyframes animation {
-    0% {
-      opacity: 0;
-      left: -700px;
-    }
-
-    100% {
-      opacity: 1;
-      left: 0;
-    }
+  0% {
+    opacity: 0;
+    left: -700px;
   }
 
- 
-
-  .aboutTitle {
-    height: 15vh;
+  100% {
+    opacity: 1;
+    left: 0;
   }
+}
 
-  .aboutText {
-    font-size: 1.1em;
-  }
 
-  
 
-  .card{
-    
-    border-radius: 4px;
-    background: #fff;
-    box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
-      transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
-      cursor: pointer;
+.aboutTitle {
+  height: 15vh;
+}
+
+.aboutText {
+  font-size: 1.1em;
+}
+
+
+
+.card{
+  border-radius: 4px;
+  background: #fff;
+  box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+    transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+    cursor: pointer;
+}
+
+.card-img-wrapper {
+height: 200px; /* Adjust this value to your preferred image height */
+overflow: hidden;
+}
+
+.card-img-top {
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+
+.pan-left {
+object-position: 10% center;
+
 }
 
 .card:hover{
-     transform: scale(1.05);
-  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+   transform: scale(1.05);
+box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
 }
 
 .techIcon {
+
+height: 7.5vh;
+border-radius: 4px;
+fill: none;
+  transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
   
-  height: 7.5vh;
-  border-radius: 4px;
-  fill: none;
-    transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
-    
 }
 
 .techIcon:hover{
-  transform: scale(1.05);
+transform: scale(1.05);
 box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
 }
 
 .contactIcon {
-  height: 7.5vh;
-  border-radius: 4px;
-  fill: none;
-    transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
-    cursor: pointer;
-    
+height: 7.5vh;
+border-radius: 4px;
+fill: none;
+  transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+  cursor: pointer;
+  
 }
 
 .contactIcon:hover{
-  transform: scale(1.05);
+transform: scale(1.05);
 box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
 }
 
- @media screen and (min-width: 250px) and (max-width: 535px) {
-  .myTitleTech {
-    height: 25vh;
-  }
+@media screen and (min-width: 250px) and (max-width: 535px) {
+.myTitleTech {
+  height: 25vh;
+}
 
-  .theAbout {
-    height: 160vh;
-  }
+.theAbout {
+  height: 160vh;
+}
 
-  .theProjects {
-    height: 110vh;
-  }
+.theProjects {
+  height: 110vh;
+}
 
 }
 
 @media (max-width: 992px) { 
 
-  .projectsTitle {
-    margin-bottom: 24.5vh;
-    height: 7.5vh;
+.projectsTitle {
+  margin-bottom: 24.5vh;
+  height: 7.5vh;
 }
 
 
-   };
+ };
 
-   @media (max-height: 765px) { 
-
-    .cosmeticCard {
-      width: 22.5rem;
-      top: -22.5vh;
-  }
+ @media (max-height: 765px) { 
 
   .cosmeticCard {
     width: 22.5rem;
     top: -22.5vh;
 }
+
+.cosmeticCard {
+  width: 22.5rem;
+  top: -22.5vh;
+}
 };
 
-      
+    
