@@ -1,4 +1,4 @@
-import CosmeticImg from './images/cosmeticProje.png';
+import QuizMammoth from './images/QuizMammoth.png';
 import WeatherImg from './images/weatherProject.png'
 import { forwardRef } from "react";
 
@@ -22,7 +22,9 @@ const Projects = forwardRef<HTMLDivElement>((props, ref) => {
     <div className="row">
     <div className="col">
 <div className="d-flex mx-auto card weatherCard" onClick={() => openInNewTab('https://weathergrab.vercel.app/')}>
+<div className="card-img-wrapper">
   <img src={WeatherImg} className="card-img-top" alt="..." />
+  </div>
   <div className="card-body">
     <h5 className="d-flex card-title justify-content-center">Weather API project</h5>
     <p className="card-text">A weather site application, using a weather API. Made with React, Typescript and Bootstrap.</p>
@@ -33,12 +35,13 @@ const Projects = forwardRef<HTMLDivElement>((props, ref) => {
 
 
         <div className="col">
-        <div className="d-flex mx-auto card cosmeticCard" onClick={() => openInNewTab('https://cosmetic-site.vercel.app/')}>
-  <img src={CosmeticImg} className="card-img-top" alt="..." />
+        <div className="d-flex mx-auto card cosmeticCard" onClick={() => openInNewTab('https://quiz-mammoth.vercel.app/')}>
+        <div className="card-img-wrapper">
+  <img src={QuizMammoth} className="card-img-top pan-left" alt="..." />
+  </div>
   <div className="card-body">
-    <h5 className="d-flex card-title justify-content-center">Cosmetician site</h5>
-    <p className="card-text">A front-end practice project, building a site for a cosmetician. Whilst making this project, I learned a lot of Bootstrap
-    skills.</p>
+    <h5 className="d-flex card-title justify-content-center">Quiz site</h5>
+    <p className="card-text">MERN application, where users can create, submit, answer and share quizzes. Uses Google authentication.  </p>
     
   </div>
 </div>
